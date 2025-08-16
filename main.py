@@ -87,10 +87,10 @@ def main():
             logging.error(f"Unexpected error: {e}")
             print(f"\n❌ Unexpected error: {e}")
             print("Let's try that again...\n")
-        finally:
-            # Clean up resources
-            if 'agent' in locals():
-                agent.close()
+        # finally:
+        #     # Clean up resources
+        #     if 'agent' in locals():
+        #         agent.close()
 
 def show_help():
     """Display help information"""

@@ -213,8 +213,8 @@ class GoalMongoDB:
                 
         return doc
     
-    def close(self):
-        """Close database connection"""
-        if self.client:
-            self.client.close()
-            logging.info("MongoDB connection closed")
+    # def close(self):
+    #     """Close database connection"""
+    #     if self.client:
+    #         self.client.close()
+    #         logging.info("MongoDB connection closed")
